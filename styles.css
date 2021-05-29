@@ -7,24 +7,27 @@
 body{
     display: flex;
     height: 100vh;
-    background-color: #e5e5e5;
-    justify-content: center;
+    background-color: #9b9999;
     align-items: center;
     flex-direction: column;
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
+.heading{
+    border: 1px solid black;
+}
+
 canvas{
-    height: 500px;
-    width: 500px;
+    height: 527px;
+    width: 550px;
     background-color: #fff;
-    border: 2px rebeccapurple solid;
+    border: 5px rebeccapurple solid;
 }
 
 .toolbox{
     background-color: rebeccapurple;
-    width: 500px;
+    width: 550px;
     display: flex;
 }
 
@@ -38,7 +41,12 @@ canvas{
     padding: 0.25rem;
     margin: 0.25rem;
     height: 50px;
-    width: 50px;
+    width: 65px;
+    cursor: pointer;
+}
+
+.toolbox > *:last-child{
+    margin-left: auto;
 }
 
 
